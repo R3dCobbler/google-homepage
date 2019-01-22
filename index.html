@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google_Test</title>
-    <link rel="Icon" href="images/googleg_standard_color_128dp.png">  
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--FAVICON-->
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+	<title>Google</title>
+	<link rel="stylesheet" type="text/css" href="main.css">	
 </head>
 <body>
-    <header class="header-container header">
-        <ul>
-            <li>
-                <a href="#">
-                    <img class="profile-icon" src=images/profile.png">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="nav-icon" src="images/notifications.png">
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="nav-icon" src="images/appimg.png">
-                </a>
-            </li>
-            <li class="nav-text">
-                <a href="#">Pictures</a>
-            </li>
-            <li class="nav-text">
-                <a href="#">Gmail</a>
-            </li>
-        </ul>
-    </header>
-    
+<div class="top-nav">
+	<ul>
+		<li><a href="https://mail.google.com/">Gmail</a></li>
+		<li><a href="https://www.google.com/imghp">Pictures</a></li>
+		<li><img id="apps" src="images/appimg.png"></li>
+		<li><img id="notifications" src="images/notification.png"></li>
+		<li><img id="profile_pic" src="images/profile.png"></li>
+	</ul>
+</div>
+
+<br>
+
+<div class="google">
+	<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+</div>
+
+<form>
+	<div class="searchbar">
+		<input size="61" type="text">
+		<img id="mic" src="images/mic.png" width="15px" height="20px">
+	</div>
+
+	<div class="buttonholder">
+		<input type="submit" value="Google Search">
+		<input type="submit" value="I'm feeling Lucky">
+	</div>
+</form>
+
+
+<footer>
+	<div class="bottom-nav">
+    	<ul>
+        	<li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertise</a></li>
+        	<li><a href="https://www.google.com/services/?fg=1">Business</a></li>
+        	<li><a href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>            
+			<li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+			<li><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
+			<li><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+        	
+		</ul>
+	</div>
+</footer>
+
 </body>
+
 </html>
